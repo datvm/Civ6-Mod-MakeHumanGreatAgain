@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_OP_BUILDING" ModifierId="OP_BUILDING_CULTURE" />
+		<Row BuildingType="BUILDING_OP_BUILDING" ModifierId="OP_BUILDING_FAITH" />
+		<Row BuildingType="BUILDING_OP_BUILDING" ModifierId="OP_BUILDING_SCIENCE" />
+		<Row BuildingType="BUILDING_OP_BUILDING" ModifierId="OP_BUILDING_FOOD" />
+		<Row BuildingType="BUILDING_OP_BUILDING" ModifierId="OP_BUILDING_PRODUCTION" />
+		<Row BuildingType="BUILDING_OP_BUILDING" ModifierId="OP_BUILDING_GOLD" />
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>OP_BUILDING_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>OP_BUILDING_FAITH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>OP_BUILDING_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>OP_BUILDING_FOOD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>OP_BUILDING_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>OP_BUILDING_GOLD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>OP_BUILDING_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>OP_BUILDING_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>OP_BUILDING_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>OP_BUILDING_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>OP_BUILDING_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>OP_BUILDING_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>OP_BUILDING_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>OP_BUILDING_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>OP_BUILDING_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>OP_BUILDING_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>OP_BUILDING_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>OP_BUILDING_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

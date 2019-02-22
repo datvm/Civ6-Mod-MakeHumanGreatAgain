@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_OP_BUILDING" YieldType="YIELD_FOOD" YieldChange="10"/>
+		<Row BuildingType="BUILDING_OP_BUILDING" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row BuildingType="BUILDING_OP_BUILDING" YieldType="YIELD_SCIENCE" YieldChange="6"/>
+		<Row BuildingType="BUILDING_OP_BUILDING" YieldType="YIELD_GOLD" YieldChange="10"/>
+		<Row BuildingType="BUILDING_OP_BUILDING" YieldType="YIELD_FAITH" YieldChange="5"/>
+		<Row BuildingType="BUILDING_OP_BUILDING" YieldType="YIELD_PRODUCTION" YieldChange="15"/>
+	</Building_YieldChanges>
+</GameData>

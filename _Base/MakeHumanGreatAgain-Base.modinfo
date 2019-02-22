@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="cb9abd93-014f-4f44-82a2-d25dcc6008b7" version="1.3">
+  <Properties>
+    <Name>Make Human Great Again - Base Building</Name>
+    <Description> <![CDATA[*NEW UPDATE*: The building is now empty (does nothing), and all the modifications are in the supported MODs below
+
+Add a building to each city to assist human players. Make Human Great Again!
+
+The building itself does nothing in this base MOD, but there are extensions to add features for it:
+
+* Flat Yields: https://steamcommunity.com/sharedfiles/filedetails/?id=1663068767
+* GPP and Great Work Slots: https://steamcommunity.com/sharedfiles/filedetails/?id=1655989544
+* Multipliers: https://steamcommunity.com/sharedfiles/filedetails/?id=1655988734
+* Loyalty: https://steamcommunity.com/sharedfiles/filedetails/?id=1663071341
+* Housing and Entertainment: https://steamcommunity.com/sharedfiles/filedetails/?id=1663073332
+
+Full collection: https://steamcommunity.com/sharedfiles/filedetails/?id=1655994492]]></Description>
+    <Teaser>Add a building to assist player.</Teaser>
+    <Authors>Luke Vo</Authors>
+	<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="OPBuilding_BaseDb">
+      <File>OPBuilding_Gameplay.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>OPBuilding_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>OPBuilding_Text.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="OPBuilding_BaseScripts">
+      <File>OPBuilding_GiveToHuman.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>OPBuilding_Gameplay.xml</File>
+    <File>OPBuilding_GiveToHuman.lua</File>
+    <File>OPBuilding_Icons.xml</File>
+    <File>OPBuilding_Text.xml</File>
+  </Files>
+</Mod>

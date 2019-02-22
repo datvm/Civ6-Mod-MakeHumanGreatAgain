@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fa9bf796-dba9-45cb-92ce-26e87a1fc9f0" version="1.3">
+  <Properties>
+    <Name>Make Human Great Again - Flat Yields</Name>
+    <Description><![CDATA[OP Building now provides +10 Food, +3 Culture, +6 Science, +10 Gold, +5 Faith, +15 Production.
+Requires the base MOD: https://steamcommunity.com/sharedfiles/filedetails/?id=1646614018
+Full collection: https://steamcommunity.com/sharedfiles/filedetails/?id=1655994492]]></Description>
+    <Teaser>Add yield multipliers and remove the flat yield for the OP Building.</Teaser>
+    <Authors>Luke Vo</Authors>
+	<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="cb9abd93-014f-4f44-82a2-d25dcc6008b7" minversion="0" maxversion="999" title="Make Human Great Again - Base Building"/>
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="OPBuilding_FlatYield">
+	  <Properties>
+        <LoadOrder>125</LoadOrder>
+      </Properties>
+      <File>OPBuilding_FlatYield.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>OPBuilding_FlatYield.xml</File>
+  </Files>
+</Mod>

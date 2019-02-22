@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1e56a892-f59d-4825-b0b3-c7efdb4c49f7" version="1.3">
+  <Properties>
+    <Name>Make Human Great Again - Houses and Entertainments</Name>
+    <Description><![CDATA[OP Building now provides +5 Housing and +5 Entertainments.
+	Requires the base MOD: https://steamcommunity.com/sharedfiles/filedetails/?id=1646614018
+	Full collection for OP Building: https://steamcommunity.com/sharedfiles/filedetails/?id=1655994492]]></Description>
+    <Teaser>+5 Hourses and +5 Entertainments for OP Building.</Teaser>
+    <Authors>Luke Vo</Authors>
+	<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="cb9abd93-014f-4f44-82a2-d25dcc6008b7" minversion="0" maxversion="999" title="Make Human Great Again - Base Building"/>
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="OPBuilding_House_Entertainments">
+	  <Properties>
+        <LoadOrder>126</LoadOrder>
+      </Properties>
+      <File>OPBuilding_House_Entertainments.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>OPBuilding_House_Entertainments.sql</File>
+  </Files>
+</Mod>

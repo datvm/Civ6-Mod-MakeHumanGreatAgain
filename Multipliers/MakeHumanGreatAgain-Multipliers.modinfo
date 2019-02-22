@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ed487e1b-0d11-4804-b934-a7fc692e37dd" version="1.3">
+  <Properties>
+    <Name>Make Human Great Again - Multipliers</Name>
+    <Description><![CDATA[OP Building now multiplies the yields by 50%.
+	Requires the base MOD: https://steamcommunity.com/sharedfiles/filedetails/?id=1646614018
+	Full collection: https://steamcommunity.com/sharedfiles/filedetails/?id=1655994492]]></Description>
+    <Teaser>Add yield multipliers for the OP Building.</Teaser>
+    <Authors>Luke Vo</Authors>
+	<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="OPBuilding_Multipliers">
+	  <Properties>
+        <LoadOrder>120</LoadOrder>
+      </Properties>
+      <File>OPBuilding_Multipliers.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Dependencies>
+    <Mod id="cb9abd93-014f-4f44-82a2-d25dcc6008b7" minversion="0" maxversion="999" title="Make Human Great Again - Base Building"/>
+  </Dependencies>
+  <Files>
+    <File>OPBuilding_Multipliers.xml</File>
+  </Files>
+</Mod>

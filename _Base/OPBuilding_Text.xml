@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_OP_BUILDING_NAME" Language="en_US">
+			<Text>OP Building</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_OP_BUILDING_DESCRIPTION" Language="en_US">
+			<Text>A building to make Human OP again!</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_OP_BUILDING_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>No AI allowed!</Text>
+		</Row>
+
+		<Row Tag="LOC_TECH_OP_NAME" Language="en_US">
+			<Text>AI-Forbidden Tech</Text>
+		</Row>
+
+		<Row Tag="LOC_TECH_OP_DESC" Language="en_US">
+			<Text>No AI allowed!</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

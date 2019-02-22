@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e0c824dc-53ba-42e6-b349-e2dc1e28ea81" version="1.3">
+  <Properties>
+    <Name>Make Human Great Again - GPP and Slots</Name>
+    <Description><![CDATA[Add 1 every Great Person Point per turn and 3 Great Work Slots for the OP Building. Automatically themed when all 3 have the same type.
+Requires the base MOD: https://steamcommunity.com/sharedfiles/filedetails/?id=1646614018
+Full collection: https://steamcommunity.com/sharedfiles/filedetails/?id=1655994492]]></Description>
+    <Teaser>Add GPP and Great Work Slots for the OP Building.</Teaser>
+    <Authors>Luke Vo</Authors>
+	<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="cb9abd93-014f-4f44-82a2-d25dcc6008b7" minversion="0" maxversion="999" title="Make Human Great Again - Base Building"/>
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="OPBuilding_GPP">
+	  <Properties>
+        <LoadOrder>120</LoadOrder>
+      </Properties>
+      <File>OPBuilding_GPP.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>OPBuilding_GPP.xml</File>
+  </Files>
+</Mod>

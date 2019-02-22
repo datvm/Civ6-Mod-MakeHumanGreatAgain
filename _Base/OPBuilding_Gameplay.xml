@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+	<Types>
+		<Row Type="BUILDING_OP_BUILDING" Kind="KIND_BUILDING" />
+	</Types>
+	<Technologies>
+		<Row TechnologyType="TECH_OP" Name="LOC_TECH_OP_NAME" Cost="50000" Repeatable="1" Description="LOC_TECH_OP_DESC" EraType="ERA_INFORMATION" AdvisorType="ADVISOR_GENERIC" UITreeRow="-1" />
+	</Technologies>
+	<TechnologyPrereqs>
+		<Row Technology="TECH_OP" PrereqTech="TECH_FUTURE_TECH" />
+	</TechnologyPrereqs>
+	<Types>
+		<Row Type="TECH_OP" Kind="KIND_TECH" />
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_OP_BUILDING" Name="LOC_BUILDING_OP_BUILDING_NAME" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="10" AdvisorType="ADVISOR_GENERIC" PrereqTech="TECH_OP" />
+	</Buildings>
+</GameData>

@@ -5,7 +5,7 @@
     <Description><![CDATA[OP Building now provides +10 Food, +3 Culture, +6 Science, +10 Gold, +5 Faith, +15 Production.
 Requires the base MOD: https://steamcommunity.com/sharedfiles/filedetails/?id=1646614018
 Full collection: https://steamcommunity.com/sharedfiles/filedetails/?id=1655994492]]></Description>
-    <Teaser>Add yield multipliers and remove the flat yield for the OP Building.</Teaser>
+    <Teaser>Add flat yields for the OP Building.</Teaser>
     <Authors>Luke Vo</Authors>
 	<CompatibleVersions>2.0</CompatibleVersions>
   </Properties>

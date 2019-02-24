@@ -1,5 +1,5 @@
 --=======GPP=======--
-INSERT INTO Building_GreatPersonPoints(BuildingType, GreatPersonClassType, PointsPerTurn) VALUES('BUILDING_OP_BUILDING', 'GREAT_PERSON_CLASS_PROPHET', 3);
+INSERT OR REPLACE INTO Building_GreatPersonPoints(BuildingType, GreatPersonClassType, PointsPerTurn) VALUES('BUILDING_OP_BUILDING', 'GREAT_PERSON_CLASS_PROPHET', 3);
 
 --=======Modifiers=======--
 INSERT INTO Modifiers(ModifierId, ModifierType) VALUES('OP_BUILDING_RELIGION_PRESSURE', 'MODIFIER_SINGLE_CITY_RELIGION_PRESSURE');
